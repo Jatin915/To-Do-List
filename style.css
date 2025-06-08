@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(232, 232, 232);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    height: fit-content;
+    width:30%;
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(174, 174, 174, 0.3),
+               -4px -4px 10px rgb(174, 174, 174, 0.3);
+
+    padding: 25px;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+    color: rgb(79, 79, 79);
+}
+
+input{
+    border: 0.5px solid grey;
+    height: 40px;
+    width: 80%;
+    color: rgb(49, 49, 49);
+    font-weight: 300;
+    padding-left: 0.5rem;
+    /* word-spacing: 0.01rem; */
+    letter-spacing: 0.05em;
+    font-size: large;
+    border-radius: 5.5px;
+}
+
+input::placeholder{
+    color: rgba(50, 50, 50, 0.508);
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05em;
+    /* padding-left: 1rem; */
+}
+
+.Add{
+    height: 38px;
+    width: 3.9rem;
+    border: none;
+    background-color: rgba(1, 165, 1, 0.822);
+    padding-top: 3px;
+    margin-left: 10px;
+    border-radius: 3.5px;
+    color: white;
+    cursor: pointer;
+}
+
+.Add:hover{
+        background-color: rgb(2, 139, 2);
+    }
+
+.inpBtn{
+    margin-bottom: 30px;
+}
+
+
+.tasks{
+    background-color: rgba(201, 201, 201, 0.326);
+    border-radius: 5.5px;
+    height: auto;
+    width: 95%;
+    padding: 10px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    overflow: auto;
+
+    p{
+        font-size: larger;
+        font-weight: 600px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+
+
+    button{
+        height: 27px;
+        width: 65px;
+        font-size: 15px;
+        background-color: red;
+        border: none;
+        color: white;
+        border-radius: 5.5px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: rgb(186, 9, 9);
+    }
+}
